@@ -29,6 +29,19 @@ body {
   border: 1px solid #f78396;
 }
 
+#love-boyfriend {
+  background-image: url("image/couple/me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#love-girlfriend {
+  background-image: url("image/couple/her.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* --------------- Heart beat ---------------  */
 #love-heart {
   position: relative;
   border: none;
@@ -56,6 +69,7 @@ body {
   }
 }
 
+/* ------------------- Bubble effect ------------  */
 .love-bubble-container {
   position: relative;
   height: 100vh;
@@ -65,10 +79,10 @@ body {
 .love-bubble {
   position: absolute;
   bottom: 0;
-  width: 150px;
-  height: 150px;
   border-radius: 50%;
-  box-shadow: 2px 2px 2px #c9344c;
+  opacity: 0.9;
+  filter: blur(1px) brightness(110%);
+  box-shadow: 0 2px 5px #0000004d;
   animation: floating 4s infinite;
 }
 
@@ -78,5 +92,24 @@ body {
   }
   100% {
     transform: translateY(-100vh);
+  }
+}
+
+/* ----------------- Pointer heart -------------------- */
+.heart {
+  position: fixed;
+  color: red;
+  pointer-events: none;
+  animation: heartFade 1s ease-out forwards;
+}
+
+@keyframes heartFade {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
   }
 }
