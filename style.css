@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Sono&display=swap");
+
+body {
+  background-image: url("image/bg/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.love-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 65%;
+  height: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.love-container div {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #f78396;
+}
+
+#love-heart {
+  position: relative;
+  border: none;
+  background-image: url("image/icon/heart.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  animation: heartbeat 1s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: pink;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.love-bubble-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.love-bubble {
+  position: absolute;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px #c9344c;
+  animation: floating 4s infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+  }
+}
