@@ -14,7 +14,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 65%;
+  width: 70%;
   height: 40%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -23,8 +23,8 @@ body {
 }
 
 .love-container div {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: 1px solid #f78396;
 }
@@ -41,6 +41,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.love-couple {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #f78396;
+}
+
+.love-name {
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  width: 100%;
+  font-size: 20px;
+  color: rgb(236, 166, 178);
+  text-align: center;
+}
+
 /* --------------- Heart beat ---------------  */
 #love-heart {
   position: relative;
