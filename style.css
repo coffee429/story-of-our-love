@@ -10,6 +10,22 @@ body {
   overflow: hidden;
 }
 
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #d3c7c7;
+  font-size: 29px;
+}
+h2 {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #d3c7c7;
+  font-size: 25px;
+}
 .love-container {
   position: absolute;
   top: 50%;
@@ -26,7 +42,6 @@ body {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 1px solid #f78396;
 }
 
 #love-boyfriend {
@@ -54,15 +69,14 @@ body {
   bottom: -70px;
   left: 0;
   width: 100%;
-  font-size: 20px;
+  font-size: 23px;
   color: rgb(236, 166, 178);
   text-align: center;
 }
 
 /* --------------- Heart beat ---------------  */
-#love-heart {
+.love-heart {
   position: relative;
-  border: none;
   background-image: url("image/icon/heart.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -98,10 +112,12 @@ body {
   position: absolute;
   bottom: 0;
   border-radius: 50%;
+  border: 5px solid #f9f9f985;
   opacity: 0.9;
-  filter: blur(1px) brightness(110%);
+  filter: brightness(110%);
   box-shadow: 0 2px 5px #0000004d;
   animation: floating 4s infinite;
+  cursor: pointer;
 }
 
 @keyframes floating {

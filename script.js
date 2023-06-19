@@ -1,10 +1,16 @@
-const heart = document.getElementById("love-heart");
-const imageFolderPath = "image/love/";
-const maxLovePicture = 51;
+import { BUBBLE, FIRSTDATE } from "./constant.js";
 
+const heart = document.querySelector(".love-heart");
+const imageFolderPath = "image/love/";
+const maxLovePicture = 42;
+let bubbleInterval;
+const bubbleGenerationDelay = 1000; // 1 second
+const bubbleFloatingSpeed = 2; // Speed of the bubble floating (pixels per frame)
+const bubbleRemovalThreshold = 0; // Threshold for bubble removal (top of the screen)
 heart.innerText = calculateLoveDays();
+
 function calculateLoveDays() {
-  const sampleDate = new Date("2023-06-07");
+  const sampleDate = new Date(FIRSTDATE.DATE);
   const currentDate = new Date();
 
   // Calculate the time difference in milliseconds
@@ -38,11 +44,6 @@ function getRandomImage() {
   return `${currentIndex}.jpg`;
 }
 
-let bubbleInterval;
-const bubbleGenerationDelay = 1000; // 1 second
-const bubbleFloatingSpeed = 2; // Speed of the bubble floating (pixels per frame)
-const bubbleRemovalThreshold = 0; // Threshold for bubble removal (top of the screen)
-
 function createBubble() {
   const bubble = document.createElement("div");
   bubble.classList.add("love-bubble");
@@ -53,7 +54,8 @@ function createBubble() {
   bubble.style.left = `${Math.random() * 100}%`;
   bubble.style.animationDelay = `${Math.random() * 5}s`;
   bubble.style.bottom = "0";
-  const randomSize = Math.floor(Math.random() * 50) + 100; // Random size between 30px and 70px
+  const randomSize =
+    Math.floor(Math.random() * BUBBLE.ADD_SIZE) + BUBBLE.MIN_SIZE; // Random size between 30px and 70px
   bubble.style.width = `${randomSize}px`;
   bubble.style.height = `${randomSize}px`;
   bubbleContainer.appendChild(bubble);
@@ -107,5 +109,5 @@ function generateHeart(event) {
 
   setTimeout(() => {
     heart.remove();
-  }, 1000); // Remove the heart element after 3 seconds
+  }, 1000); // Remove the heart element after 1 seconds
 }
