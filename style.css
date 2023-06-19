@@ -118,6 +118,7 @@ h2 {
   box-shadow: 0 2px 5px #0000004d;
   animation: floating 4s infinite;
   cursor: pointer;
+  z-index: 1;
 }
 
 @keyframes floating {
@@ -146,4 +147,37 @@ h2 {
     opacity: 0;
     transform: scale(1.5);
   }
+}
+
+/* --------------- Image information ------------------ */
+.love-memory {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.love-memory-image {
+  position: relative;
+  height: 70%;
+  background-color: white;
+  margin: 0;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.love-memory-description {
+  height: 30%;
+  width: 100%;
+  padding: 10px;
+  background-color: #aa96da;
+  color: #ffffd2;
+  font-size: 20px;
+  overflow: auto;
+  box-sizing: border-box;
+  resize: none;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }

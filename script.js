@@ -1,8 +1,7 @@
-import { BUBBLE, FIRSTDATE } from "./constant.js";
+import { BUBBLE, FIRSTDATE, MEMORY } from "./constant.js";
 
 const heart = document.querySelector(".love-heart");
 const imageFolderPath = "image/love/";
-const maxLovePicture = 42;
 let bubbleInterval;
 const bubbleGenerationDelay = 1000; // 1 second
 const bubbleFloatingSpeed = 2; // Speed of the bubble floating (pixels per frame)
@@ -30,11 +29,11 @@ let currentIndex = -1;
 function getRandomImage() {
   if (currentIndex === -1) {
     // Initial case or when currentIndex has reached maxLovePicture
-    currentIndex = Math.floor(Math.random() * maxLovePicture) + 1;
+    currentIndex = Math.floor(Math.random() * BUBBLE.MAX_PICTURE) + 1;
   } else {
     // Generate a new random index that is different from the previous index
     do {
-      currentIndex = Math.floor(Math.random() * maxLovePicture) + 1;
+      currentIndex = Math.floor(Math.random() * BUBBLE.MAX_PICTURE) + 1;
     } while (currentIndex === previousIndex);
   }
 
@@ -46,8 +45,10 @@ function getRandomImage() {
 
 function createBubble() {
   const bubble = document.createElement("div");
+  const id = getRandomImage();
   bubble.classList.add("love-bubble");
-  bubble.style.backgroundImage = `url(${imageFolderPath}${getRandomImage()})`;
+  bubble.setAttribute("id", id);
+  bubble.style.backgroundImage = `url(${imageFolderPath}${id})`;
   bubble.style.backgroundPosition = "center";
   bubble.style.backgroundRepeat = "no-repeat";
   bubble.style.backgroundSize = "cover";
@@ -58,6 +59,9 @@ function createBubble() {
     Math.floor(Math.random() * BUBBLE.ADD_SIZE) + BUBBLE.MIN_SIZE; // Random size between 30px and 70px
   bubble.style.width = `${randomSize}px`;
   bubble.style.height = `${randomSize}px`;
+  bubble.addEventListener("click", (e) => {
+    readBubbleMemory(e);
+  });
   bubbleContainer.appendChild(bubble);
 
   function updateBubblePosition() {
@@ -79,8 +83,22 @@ function startBubbleGeneration() {
   bubbleInterval = setInterval(createBubble, bubbleGenerationDelay);
 }
 
-function stopBubbleGeneration() {
-  clearInterval(bubbleInterval);
+function readBubbleMemory(e) {
+  const id = e.target.id;
+  const loveMemory = document.querySelector(".love-memory");
+  loveMemory.style.display = "block";
+  const loveMemoryImg = loveMemory.querySelector(".love-memory-image");
+  loveMemoryImg.style.backgroundImage = `url(${imageFolderPath}${id})`;
+  loveMemoryImg.style.backgroundPosition = "center";
+  loveMemoryImg.style.backgroundRepeat = "no-repeat";
+  loveMemoryImg.style.backgroundSize = "cover";
+  const loveMemoryDesciption = loveMemory.querySelector(
+    ".love-memory-description"
+  );
+  const memoryId = id.replace(".jpg", "");
+  if (MEMORY.hasOwnProperty(memoryId)) {
+    loveMemoryDesciption.innerText = `\u2764 ${MEMORY[memoryId]}`;
+  }
 }
 
 startBubbleGeneration(); // Start bubble generation after 1 second
