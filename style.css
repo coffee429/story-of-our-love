@@ -186,13 +186,10 @@ h2 {
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 30px;
-  height: 30px;
-  font-size: 20px;
-  color: black;
-  background: white;
+  font-size: 30px;
+  color: white;
+  background: transparent;
   border: none;
-  border-radius: 30px;
   cursor: pointer;
   z-index: 2;
 }
@@ -202,6 +199,5 @@ h2 {
 }
 
 .close-button:hover {
-  background-color: red;
-  color: black;
+  color: red;
 }
