@@ -102,6 +102,12 @@ function readBubbleMemory(e) {
 }
 
 startBubbleGeneration(); // Start bubble generation after 1 second
+const closeBtn = document.querySelector(".close-button");
+const loveMemory = document.querySelector(".love-memory");
+
+closeBtn.addEventListener("click", () => {
+  loveMemory.style.display = "none";
+});
 
 /* ---------------- Heart trace effect ---------------- */
 let isCreatingHeart = false;

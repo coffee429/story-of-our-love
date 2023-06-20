@@ -181,3 +181,27 @@ h2 {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: black;
+  background: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.close-button:focus {
+  outline: none;
+}
+
+.close-button:hover {
+  background-color: red;
+  color: black;
+}
