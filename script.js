@@ -109,7 +109,7 @@ closeBtn.addEventListener("click", () => {
   loveMemory.style.display = "none";
 });
 
-/* ---------------- Heart trace effect ---------------- */
+/* ---------------- Heart trace pointer effect ---------------- */
 let isCreatingHeart = false;
 document.addEventListener("mousemove", handleMouseMove);
 
