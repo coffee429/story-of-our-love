@@ -31,7 +31,7 @@ export const MEMORY = {
   20: "Hồi đó em cho anh xem ảnh này trước khi đăng story nè",
   21: "Em rủ đi sinh nhật bạn cùng với em. Ảnh nền điện thoại của anh đó",
   22: "Cây xương rồng em tặng. Nhưng mà rơi vỡ mất rồi. Anh xin lỗi, huhu. Anh sẽ trồng cây khác vào đó",
-  23: "Em đi Ninh Bình. Tối đó em khó ngủ. Chúng mình buôn chuyện đến 4h sáng",
+  23: "Em đi Ninh Bình. Tối đó em khó ngủ. Anh thức buôn chuyện cùng em đến 4h sáng",
   24: "07/06/2023 \n Ngày tỏ tình: Ngày mà chúng ta mất nụ hôn đầu",
   25: "OK. Đáng yêu nên cho vào đây thuiii",
   26: "1 chút đáng yêu ở Cửa Tử - Thái Nguyên",

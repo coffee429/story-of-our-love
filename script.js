@@ -39,7 +39,6 @@ function getRandomImage() {
 
   // Update the previous index for the next iteration
   previousIndex = currentIndex;
-  console.log(currentIndex);
   return `${currentIndex}.jpg`;
 }
 
