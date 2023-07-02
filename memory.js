@@ -11,6 +11,7 @@ let currentIndex = -1;
 const backImg = document.getElementById("backImage");
 const nextImg = document.getElementById("nextImage");
 const dots = document.querySelectorAll(".dot");
+let imgId;
 
 let currentImageIndex = 0;
 function getRandomImage() {
@@ -71,10 +72,10 @@ function startBubbleGeneration() {
 
 function readBubbleMemory(e) {
   currentImageIndex = 0;
+  const id = e.target.id;
+  imgId = id;
   updateImage();
   updateButtons();
-  const id = e.target.id;
-  localStorage.setItem("imgId", id);
   const loveMemory = document.querySelector(".love-memory");
   loveMemory.style.display = "block";
   const loveMemoryImg = loveMemory.querySelector(".love-memory-image");
@@ -124,8 +125,8 @@ dots.forEach((dot, index) => {
 });
 
 function updateImage() {
-  let currentImageId = localStorage.getItem("imgId");
-
+  let currentImageId = imgId;
+  console.log(currentImageId);
   const currentImageSubId = currentImageId.slice(0, -1) + currentImageIndex;
   let imagesUrl = [];
   for (let n = 0; n < LOVE_IMAGE.MAX; n++) {
