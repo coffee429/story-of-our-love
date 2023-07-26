@@ -1,7 +1,7 @@
 export const BUBBLE = {
   MIN_SIZE: 60,
   ADD_SIZE: 120,
-  MAX_PICTURE: 10,
+  MAX_PICTURE: 13,
 };
 
 export const FIRSTDATE = {
@@ -47,4 +47,16 @@ export const MEMORY = {
   i10n0: "Lần đầu lắp lego với nhau. Đây là anh.",
   i10n1: "Còn đây là em",
   i10n2: "Và thành quả của chúng mình sau 4 tiếng miệt mài :))",
+  i11n0:
+    "00:00:00 ngày 04/07/2023. Em xuất hiện trước cửa phòng trọ anh, với chiếc bánh sinh nhật này. Anh bất ngờ lắm luôn. Bánh xinh lắm, nhưng em xinh hơn.",
+  i11n1:
+    "Món quà sinh nhật đầu tiên em tặng anh, với dòng chữ em tự thêu. Cảm ơn em nhé, Đầu Lợn của anh",
+  i11n2:
+    "04/07/2023: Ngày sinh nhật đáng nhớ, vì năm nay anh đón sinh nhật cùng người anh yêu",
+  i12n0:
+    "Kết thúc năm 3, em về nhà. Chúng ta bắt đầu tháng ngày yêu xa. Có 1 lúc anh đã khiến em dỗi, anh xin lỗi. Rồi chúng ta làm lành. Chúng mình gọi nhau mỗi tối nhưng vẫn nhớ nhau thật là nhiều.",
+  i12n1:
+    "Vào 1 tối thứ 6, em bảo rằng em rất nhớ anh. Thế là ngày hôm sau, anh bắt đầu chuyến đi gần 100km lên Thái Nguyên gặp người yêu của anh.",
+  i12n2:
+    "Em bất ngờ lắm không? Và sau đó chúng mình đi lượn thành phố Thái Nguyên, đi ăn chè, ra hồ Xương Rồng uống trà chanh đón hoàng hôn. Chỉ gặp nhau 3 tiếng thôi, anh lại phải quay về Hà Nội rồi. Nhưng không sao hết, em vui là được mà.",
 };
