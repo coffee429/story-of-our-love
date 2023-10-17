@@ -1,7 +1,7 @@
 export const BUBBLE = {
   MIN_SIZE: 60,
   ADD_SIZE: 120,
-  MAX_PICTURE: 13,
+  MAX_PICTURE: 16,
 };
 
 export const FIRSTDATE = {
@@ -59,4 +59,25 @@ export const MEMORY = {
     "Vào 1 tối thứ 6, em bảo rằng em rất nhớ anh. Thế là ngày hôm sau, anh bắt đầu chuyến đi gần 100km lên Thái Nguyên gặp người yêu của anh.",
   i12n2:
     "Em bất ngờ lắm không? Và sau đó chúng mình đi lượn thành phố Thái Nguyên, đi ăn chè, ra hồ Xương Rồng uống trà chanh đón hoàng hôn. Chỉ gặp nhau 3 tiếng thôi, anh lại phải quay về Hà Nội rồi. Nhưng không sao hết, em vui là được mà.",
+  i13n0:
+    "02/08/2023: Lần đầu mặc áo đôi đi chơi nè, đi xem phim Conan. Em mê lắm á",
+  i13n1: "Áo đôi nè 😋",
+  i13n2:
+    "05/08/2023: Đưa em đi hẹn hò ở phố sách. Đây sẽ là chúng mình của sau này",
+  i14n0: "14/08/2023: Lần đầu cũng nhau hẹn hò ở lẩu Kichi-kichi",
+  i14n1: "06/09/2023: Lần đầu cùng nhau hẹn hò ở nét Huế",
+  i14n2:
+    "12/09/2023: Lần đầu cùng nhau hẹn hò đi ăn món Thái. Có bạn nhân viên phục vụ hỏi em năm nay học lớp mấy, em nhớ không 🤣",
+  i15n0:
+    "09/09/2023: Ngày trường báo đón Tân sinh viên. Năm nay anh lại quay gian của clb em, nhưng với 1 tư cách khác, hihi",
+  i15n1:
+    "17/09/2023: Hôm trước em bị nhầm là học sinh cấp 3, hôm nay anh hẹn hò cùng quý cô Hương Giang 😎",
+  i15n2:
+    "Thử chụp ảnh ở thang máy. Em bảo nếu mà không có camera là em hôn anh rồi đó 😒🙄",
+  i16n0:
+    "23/09/2023: Cùng nhau chụp ảnh đôi nè. Nhiều phong cách lắm nhưng em mặc gì cũng xinh, hihi",
+  i16n1:
+    "29/09/2023: Lần đầu hẹn hò ở lẩu Manhwa nè. Rồi ngồi buôn chuyện trên trời dưới đất cho nhau nghe",
+  i16n2:
+    "07/10/2023: Tròn 4 tháng bên nhau. Anh đưa em đến nhà anh ăn cơm và ra mắt với Mậm. Em và mậm hợp nhau đến bất ngờ 😊. Đây là 1 chiếc ảnh tình củm ở công viên",
 };
