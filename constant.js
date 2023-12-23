@@ -1,7 +1,7 @@
 export const BUBBLE = {
   MIN_SIZE: 60,
   ADD_SIZE: 120,
-  MAX_PICTURE: 16,
+  MAX_PICTURE: 26,
 };
 
 export const FIRSTDATE = {
@@ -80,4 +80,56 @@ export const MEMORY = {
     "29/09/2023: Lần đầu hẹn hò ở lẩu Manhwa nè. Rồi ngồi buôn chuyện trên trời dưới đất cho nhau nghe",
   i16n2:
     "07/10/2023: Tròn 4 tháng bên nhau. Anh đưa em đến nhà anh ăn cơm và ra mắt với Mậm. Em và mậm hợp nhau đến bất ngờ 😊. Đây là 1 chiếc ảnh tình củm ở công viên",
+  i17n0:
+    "13/10/2023: Mình hẹn hò ở rạp chiếu phim, lần đầu tiên anh đi xem phim Việt ngoài rạp đó. Nhưng mà quan trọng là phải có em cơơơơ. ",
+  i17n1: "19/10/2023: Chúng mình lại đi chụp ảnh đôi với nhau nè.",
+  i17n2:
+    "Anh thơm em đi - Anh thơm má bé nhé - Em thơm lại anh nhé - Em muốn mình hôn nhau cơ. ",
+  i18n0:
+    "03/11/2023: Chúng mình bắt đầu chuyên mục hôm nay ăn gì. Mở đầu = 1 bát mỳ ếch măng chua ở gần khu BK á.",
+  i18n1:
+    "Rồi sau đó anh đưa em đến ktx Bách Khoa và kể ho em những câu chuyện ngày sinh viên của anh.",
+  i18n2:
+    "Chúng mình lượn lờ khu BK đến tối và dừng chân ở quán chè tự chọn mà em muốn ăn.",
+  i19n0:
+    "09/11/2023: Tiếp tục album Tối nay ăn gì bằng 2 bát cháo canh hương vị quê anh nè.",
+  i19n1: "Cái dáng ăn cưng quá đi à. ",
+  i19n2: "Hôn em nè",
+  i20n0:
+    "14/11/2023: 1 ngày đặc biệt, ngày sinh nhật của em. Cảm ơn em vì đã xuất hiện và đến bên anh. Cảm ơn em vì đã bao nuôi anh tối hôm đó nữa, hihi. Sau đó chúng mình cùng nhau dạo quanh bờ hồ, cùng nhau kể những câu chuyện và tâm sự. ",
+  i20n1: "Chú gấu này sẽ mãi mãi là của em",
+  i20n2: "Cặp đôi gấu này đang đi chơi ở trung tâm thương mại đó",
+  i21n0:
+    "2 cây xương rồng em tặng, do anh chăm không tốt nên ko còn nữa. Lần này em tặng anh cây xương rồng bất tử này nhé",
+  i21n1:
+    "Chúng mình còn đi làm con dấu cùng nhau nữa. Thế là bộ sưu tập trang trí của anh lại có thêm 1 vài thứ hay ho nữa rồi",
+  i21n2:
+    "Lại nhắc đến cây thì: Em có biết chúng mình đang làm gì ở đâu không?. Gợi ý là tối hôm đó em bảo rằng em bị khó ngủ nhé.",
+  i22n0:
+    "25/11/2023: Em đã đoán được chưa nào. Đúng rồi đó, chiều chiều anh dẫn em đi làm nến thơm đó.",
+  i22n1: "Nhưng mà làm nến là phụ, tình củm mới là chính em nhỉ. hihi",
+  i22n2:
+    "Sau hơn 1 tiếng thì chúng mình đã cho ra lò 1 cốc nến hương thảo mộc xinh xinh. Anh cố ý dẫn em đi làm nến để về em đốt lên cho dễ ngủ, thế mà em bảo đẹp quá không nỡ đốt.",
+  i23n0:
+    "Làm nến xong thì chúng mình làm gì tiếp nhỉ? Tất nhiên là phát cơm chó cho mọi người rồi.",
+  i23n1: "Cơm chó này hơi bị chất lượng em nhỉ.",
+  i23n2:
+    "Tiếp tục album tối nay ăn gì bằng món iu thích của em: Bánh đúc nóng.",
+  i24n0:
+    "30/11/2023: Đêm sách của CLB em, anh đã tới tham dự cùng em, nhưng mà không phải với tư cách là khách, mà là Tệp đính kèm của chị Giang đó. Ahh hãnh diện quá đii",
+  i24n1:
+    "03/12/2023: Cuối tuần rồi, anh rủ em tới nhà chơi. Bữa ăn do chúng mình nấu cũng ngon quá đii. Hôm đó anh được thưởng thức món thịt chua ngọt phiên bản Hương Giang. Mlem mlem",
+  i24n2:
+    "Tiếp tục album Tối nay ăn gì là món bánh mỳ nướng Lạng Sơn ở Trần Quốc Hoàn mà em giới thiệu. Hôm nay anh đưa em đi trải nghiệm nhé. Rồi chiều đó chúng mình lại cafe học bá cùng với nhau đó. Em có nhớ không.",
+  i25n0:
+    "05/12/23: Vịt 34 xin phép tài trợ số tiếp theo của chuyên mục cùng Hương Giang ăn gì. Có ngon không nhỉ? Thử lướt qua ảnh tiếp theo nhé.",
+  i25n1:
+    "Ái chà, mặt sung sướng thế này chắc chắn là rất ngon rồi. Nhưng anh biết em định nói gì mà: Làm sao ngon bằng món chính được. hihi",
+  i25n2:
+    "21/12/2023: Hôm nay sẽ đi ăn món chay nhé. Em có nhớ vì sao không. Vì giữa tuần em đang đi làm thì bị đau dạ dày đó. Anh đã lên công ty đón em về và giữa trưa đi mua cháo cho em. Em iu có nhớ không",
+  i26n0:
+    "05/12/23: Mai là em về quê rồi. Cho nên tối nay anh đã rủ em lên nhà anh để.... Chúc mừng kỷ niệm 6 tháng mình ở bên nhau. Em bất ngờ lắm đúng khôngggg.",
+  i26n1:
+    "Cảm ơn chúng mình đều cố gắng trong mối quan hệ này. Hãy cùng bên nhau hơn nữa với khoảng thời gian đếm bằng năm, chục năm, trăm năm bé nhé. Anh yêu em nhiều lắmm. E hèm, ảnh tiếp theo nghiêm cấm trẻ nhỏ xem nhé",
+  i26n2: "Cơm chó 10 điểm cộng 1 điểm vì người phát trai xinh gái đẹp. ",
 };
