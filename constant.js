@@ -1,7 +1,7 @@
 export const BUBBLE = {
   MIN_SIZE: 60,
   ADD_SIZE: 120,
-  MAX_PICTURE: 26,
+  MAX_PICTURE: 32,
 };
 
 export const FIRSTDATE = {
@@ -132,4 +132,33 @@ export const MEMORY = {
   i26n1:
     "Cảm ơn chúng mình đều cố gắng trong mối quan hệ này. Hãy cùng bên nhau hơn nữa với khoảng thời gian đếm bằng năm, chục năm, trăm năm bé nhé. Anh yêu em nhiều lắmm. E hèm, ảnh tiếp theo nghiêm cấm trẻ nhỏ xem nhé",
   i26n2: "Cơm chó 10 điểm cộng 1 điểm vì người phát trai xinh gái đẹp. ",
+  i27n0:
+    "24/12/2023: Lần đầu tiên đón Giáng Sinh cùng nhau, lần đầu tiên chúng mình đi chơi bowling ở Royal City á.",
+  i27n1: "Sau đó cũng là lần đầu tiên chúng mình đi ăn lẩu ShangChi nè.",
+  i27n2: "Đón giáng sinh cùng nhau",
+  i28n0:
+    "24/12/2023: Lần đầu tiên chúng mình đón Giáng Sinh cùng nhau đúng không bé ơi",
+  i28n1: "Lần đầu anh Cún hát karaoke cho bé nghe đúng ko",
+  i28n2: "Một bức ảnh đáng yêu. Moaa moaa, chụt chụtt",
+  i29n0:
+    "30/12/2023: Sáng hôm thứ 7 đó, anh đưa bé đi làm em nhớ không. Anh còn làm đồ ăn sáng cho em nữa. Trưa hôm đó chúng mình đi ăn bún bò Huế này.",
+  i29n1:
+    "06/01/2024: Lần đầu đưa em đi thưởng thức đặc sản súp lươn Nghệ An nè.",
+  i29n2:
+    "08/01/2024: Em bảo thèm ăn gà. Thế là chúng mình đi gà ở Don Chicken nhé.",
+  i30n0:
+    "01/01/2024: Ngày đầu tiên của năm mới. Chúc chúng ta lại có thêm 1 năm nữa bên nhau thật hạnh phúc. Quần đôi nè, bé có vẻ thích đồ của anh lắm.",
+  i30n1:
+    "18/01/2024: Công việc anh bận quá, buổi trưa cũng không có nhiều thời gian ăn trưa. Thế là công chúa của anh đã đích thân vào bếp nấu và mang bữa trưa tới cho anh. Anh cảm động lắm áaa.",
+  i30n2: "19/01/2024: Mình đi ăn bánh xèo ở đối diện ktx của em nè.",
+  i31n0:
+    "05/01/2024: Mình đi cafe Mơ để tô tranh đó, bé nhớ không. Bé mới nhận lương, trước đó bé mời anh ăn chao trai mà bé quên chụp mất. Hihi",
+  i31n1: "Công chúa của anh đang cặm cụi tô tranh trông thật là đáng yêu",
+  i31n2: "Tada, thành quả nè bé ơi",
+  i32n0:
+    "19/01/2024: Chúng mình lại đi hội sách, nhưng hôm nay dưới danh nghĩa người yêu của nhau nhé. Không phải cậu - tớ nữa rồi, hehehe",
+  i32n1:
+    "11/01/2024: Bé Đầu Lợn hôm nay lại bao nuôi anh à, mình đi ăn bánh bao nhé",
+  i32n2:
+    "Sau đó mình lại đi ăn xiên bẩn ở Xuân Thủy nè. Đúng món khoái khẩu của em chưa.",
 };
