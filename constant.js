@@ -1,7 +1,7 @@
 export const BUBBLE = {
   MIN_SIZE: 60,
   ADD_SIZE: 120,
-  MAX_PICTURE: 32,
+  MAX_PICTURE: 37,
 };
 
 export const FIRSTDATE = {
@@ -161,4 +161,27 @@ export const MEMORY = {
     "11/01/2024: Bé Đầu Lợn hôm nay lại bao nuôi anh à, mình đi ăn bánh bao nhé",
   i32n2:
     "Sau đó mình lại đi ăn xiên bẩn ở Xuân Thủy nè. Đúng món khoái khẩu của em chưa.",
+  i33n0:
+    "25/01/2024: Lần đầu tiên anh đi nhổ răng khôn. Đau quá trời, may mà có em bé đi cùng anh đó.",
+  i33n1:
+    "28/01/2024: Em bé rủ anh đi xem tinh hoa Bắc Bộ đó. Đi xa ơi là xa, nhưng mà vui lắm á.",
+  i33n2:
+    "Hừm, hơi tiếc vì răng anh cún chưa lành, chỉ húp được mỗi bát bún này.",
+  i33n0:
+    "Hehe, lần đầu tiên chúng mình gói bánh chưng nè. À không, phải là bánh gato nhân đậu xanh mới đúng chứ. Ko biết ra lò thì hình thù nó sẽ như thế nào nhỉ.",
+  i34n1: "Thêm chút ảnh chụp chúng mình sau khi xem biểu diễn nè. Đẹp mê ly.",
+  i34n2: "Em bé bảo nhìn tấm này chúng mình thật tự nhiên.",
+  i35n0:
+    "10/02/2024: Tức 01/01/2024 âm lịch. Ngày đầu năm mới, lần đầu tiên anh được nhận 1 bức thư xinh xẻo như này. Hi vọng chúng mình sẽ có thật là nhiều thời gian bên nhauuu. Iu em lắm",
+  i35n1:
+    "14/02/2024: Lúc này vẫn còn nghỉ tết, mình vẫn yêu xa. Nhưng em bé thích món quà tình yêu anh tặng bé chứ? 😍",
+  i35n2:
+    "17/02/2024: Bữa trưa tình yêu vì em bé bảo răng mang nhầm nồi canh thay vì hộp đồ ăn. Hôm đấy em bé chấm trứng bằng gì, bé nhớ không? Bằng muối ớt đó.",
+  i36n0:
+    "20/02/2024: Lần đầu tiên anh đưa em đến Bách Khoa - 5 năm thanh xuân của anh. Cuối cùng thì cũng có thể chụp cùng người yêu trên con đường tình yêu rồi",
+  i36n1: "Đèn vàng, người xinh. Hhihi đẹp đôi quá",
+  i36n2: "Mình cùng nắm tay đi đến cuối con đường.",
+  i37n0: "Lần đầu tiên anh đi hiến máu, hy vọng sẽ sớm có gấu.",
+  i37n1: "Mấy năm sau, có ngay cô gấu cosplay lại hình ảnh mình, hihi.",
+  i37n2: " Ây dà, ưng tấm này lắm luôn.",
 };
