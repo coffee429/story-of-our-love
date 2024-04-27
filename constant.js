@@ -167,7 +167,7 @@ export const MEMORY = {
     "28/01/2024: Em bé rủ anh đi xem tinh hoa Bắc Bộ đó. Đi xa ơi là xa, nhưng mà vui lắm á.",
   i33n2:
     "Hừm, hơi tiếc vì răng anh cún chưa lành, chỉ húp được mỗi bát bún này.",
-  i33n0:
+  i34n0:
     "Hehe, lần đầu tiên chúng mình gói bánh chưng nè. À không, phải là bánh gato nhân đậu xanh mới đúng chứ. Ko biết ra lò thì hình thù nó sẽ như thế nào nhỉ.",
   i34n1: "Thêm chút ảnh chụp chúng mình sau khi xem biểu diễn nè. Đẹp mê ly.",
   i34n2: "Em bé bảo nhìn tấm này chúng mình thật tự nhiên.",
@@ -184,4 +184,40 @@ export const MEMORY = {
   i37n0: "Lần đầu tiên anh đi hiến máu, hy vọng sẽ sớm có gấu.",
   i37n1: "Mấy năm sau, có ngay cô gấu cosplay lại hình ảnh mình, hihi.",
   i37n2: " Ây dà, ưng tấm này lắm luôn.",
+  i38n0:
+    "08/03/2024: Lần 8/3 đầu tiên của chúng mình nè, em bé có nhớ không. Mình đi ăn cháo canh rồi đi ra hồ dạo chơi đó.",
+  i38n1: "Á à, trẻ con ko được xem ảnh này đâu nha.",
+  i38n2:
+    "Em bé bảo đến ngày, mệt mà còn đi học về muộn nữa nên anh nấu mang qua cho em. Trời mưa lắm, em bé định mắng anh cún cơ 😭. Nhưng mà hehe, em cảm động lắm đúng không. Chàng trai như này không cưới thì phí quá.",
+  i39n0:
+    "10/03/2024: Lần đầu đi ăn gà rán Lotte cùng nhau nè. Lạ ghê, sao gà ở đây lại ko có xương ta 😉",
+  i39n1: "Gà rán mà lại còn trộn cả cơm chó nữa chứ.",
+  i39n2:
+    "15/03/2024: Anh đưa em về khu trọ suốt 5 năm đại học của anh. Đi ăn xôi nè, đi chơi dãy phố đồ lưu niệm nè. Em mua được chiếc nhẫn bé bé xinh lắm.",
+  i40n0:
+    "17/03/2024: Lần đầu anh dạy bé trượt băng nè. Nhìn em bé cố gắng trượt trượt, đáng yêu ghê. Anh đành phải ra lấy thêm 1 chiếc ghế ngồi để đẩy em đi, cho thỏa đam mê tốc độ. ",
+  i40n1: "Rồi sau đó chúng mình ăn tối bằng pizza đó.",
+  i40n2: "Ăn xong rùi, chuẩn bị hôn nhau đó. Bạn định nhìn cái giề 🙈?",
+  i41n0: "Nàng tiểu thư kiêu kỳ",
+  i41n1: "Và chàng hoàng tử của cô ấy.",
+  i41n2: "Và là bạn nhậu trong buffet đồ chay",
+  i42n0:
+    "24/03/2024: Chúng mình đi nghe 1 khóa sơ cứu. Rồi vi vu ăn đồ Trung nè. Về bé còn kiểm tra bài cũ anh nữa chứ.",
+  i42n1:
+    "03/04/2024: Vi vu lên phố cổ để thưởng thúc bánh mỳ tái lăn chợ Đồng xuân nè.",
+  i42n2:
+    "Mỳ vằn thắn ở Tô Hiệu nè. Mình vẫn chưa ăn sập các quán ở Tô Hiệu đâu đó bé à.",
+  i43n0: "07/04/2024: Anh đưa bé đi tiên HPV mũi đầu nhé.",
+  i43n1:
+    "Hè hè, em bé còn nhớ anh đã xin cho bé đống sticker dành cho trẻ em ko.",
+  i43n2: "Tiêm về mệt quá chờiii",
+  i44n0: "Đưa em bé đi tiêm về mệt quá. Phải làm cốc nước bồi bổ mới được.",
+  i44n1: "Làm thêm tí bánh lót dạ, để lát còn ...",
+  i44n2: "Ăn cơm chó. Đùa thui, đi xem phim thooiii.",
+  i45n0: "14/04/2024: Đi cafe mèo healing thuii",
+  i45n1: "Eo ôi, đi healing mà suýt bị mất người yêu thế này.",
+  i45n2: "Healing mà sao vẫn phải suy nghĩ quá trời",
+  i46n0: "14/04/2024: Chúng mình lại đi chụp ảnh thuii",
+  i46n1: "Badboy và slaygirl. Chúng mình cũng ngầu đó chứ",
+  i46n2: "E hèm, 18+ rồi. Lướt qua mau",
 };
