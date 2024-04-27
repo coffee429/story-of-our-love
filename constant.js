@@ -1,7 +1,7 @@
 export const BUBBLE = {
   MIN_SIZE: 60,
   ADD_SIZE: 120,
-  MAX_PICTURE: 37,
+  MAX_PICTURE: 46,
 };
 
 export const FIRSTDATE = {
