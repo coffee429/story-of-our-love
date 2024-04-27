@@ -14,6 +14,7 @@ const dots = document.querySelectorAll(".dot");
 let imgId;
 
 let currentImageIndex = 0;
+console.log(MAX_PICTURE);
 function getRandomImage() {
   if (currentIndex === -1) {
     // Initial case or when currentIndex has reached maxLovePicture
@@ -126,7 +127,6 @@ dots.forEach((dot, index) => {
 
 function updateImage() {
   let currentImageId = imgId;
-  console.log(currentImageId);
   const currentImageSubId = currentImageId.slice(0, -1) + currentImageIndex;
   let imagesUrl = [];
   for (let n = 0; n < LOVE_IMAGE.MAX; n++) {
