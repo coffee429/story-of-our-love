@@ -126,7 +126,7 @@ dots.forEach((dot, index) => {
 
 function updateImage() {
   let currentImageId = imgId;
-  console.log(MAX_PICTURE);
+  console.log(BUBBLE.MAX_PICTURE);
   const currentImageSubId = currentImageId.slice(0, -1) + currentImageIndex;
   let imagesUrl = [];
   for (let n = 0; n < LOVE_IMAGE.MAX; n++) {
