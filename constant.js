@@ -1,6 +1,6 @@
 export const BUBBLE = {
   MIN_SIZE: 60,
-  ADD_SIZE: 120,
+  ADD_SIZE: 100,
   MAX_PICTURE: 46,
 };
 
