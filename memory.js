@@ -1,7 +1,5 @@
 import { BUBBLE, MEMORY, LOVE_IMAGE } from "./constant.js";
 
-const bubbleGenerationDelay = 1000; // 1 second
-const bubbleFloatingSpeed = 2; // Speed of the bubble floating (pixels per frame)
 const bubbleRemovalThreshold = 0; // Threshold for bubble removal (top of the screen)
 const bubbleContainer = document.querySelector(".love-bubble-container");
 let previousIndex = -1;
@@ -53,8 +51,7 @@ function createBubble() {
 
   function updateBubblePosition() {
     const currentPosition = parseFloat(bubble.style.bottom);
-    const newPosition = currentPosition + bubbleFloatingSpeed;
-
+    const newPosition = currentPosition + BUBBLE.SPEED;
     bubble.style.bottom = `${newPosition}px`;
 
     if (newPosition <= bubbleRemovalThreshold) {
@@ -63,11 +60,14 @@ function createBubble() {
     }
   }
 
-  const updatePositionInterval = setInterval(updateBubblePosition, 16); // 60 frames per second
+  const updatePositionInterval = setInterval(
+    updateBubblePosition,
+    BUBBLE.UPDATE_POSTION_PERIOD
+  );
 }
 
 function startBubbleGeneration() {
-  setInterval(createBubble, bubbleGenerationDelay);
+  setInterval(createBubble, BUBBLE.GENERATION_DELAY);
 }
 
 function readBubbleMemory(e) {
@@ -104,7 +104,6 @@ closeBtn.addEventListener("click", () => {
 
 backImg.addEventListener("click", () => {
   currentImageIndex--;
-
   updateImage();
   updateButtons();
 });

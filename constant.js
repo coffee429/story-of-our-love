@@ -1,7 +1,10 @@
 export const BUBBLE = {
-  MIN_SIZE: 60,
+  GENERATION_DELAY: 1000,
+  SPEED: 1,
+  UPDATE_POSTION_PERIOD: 1,
+  MIN_SIZE: 50,
   ADD_SIZE: 100,
-  MAX_PICTURE: 46,
+  MAX_PICTURE: 50,
 };
 
 export const FIRSTDATE = {
@@ -220,4 +223,24 @@ export const MEMORY = {
   i46n0: "14/04/2024: Chúng mình lại đi chụp ảnh thuii",
   i46n1: "Badboy và slaygirl. Chúng mình cũng ngầu đó chứ",
   i46n2: "E hèm, 18+ rồi. Lướt qua mau",
+  i47n0: "30/04/2024: Đưa em bé đi chơi ngày lễ nè, ở Royal city á.",
+  i47n1: "Pằng pằng chíu chíu. ",
+  i47n2: "Kết thúc ngày đi chơi bằng vài chiếc nhẫn xinh xinh cho bé.",
+  i48n0:
+    "04/05/2024: Đưa em bé đi niềng răng nhé. Eo ôi, giờ chỉ được hôn nhẹ nhàng thuii",
+  i48n1:
+    "05/05/2024: Đi hồ Tây ngắm hoàng hôn nè. Chả thấy hoàng hôn đâu, chỉ thấy bò bía ko à.",
+  i48n2: "Em béee vẫn còn muốn chơi nữa.",
+  i49n0:
+    "17/05/2024: Em bé niềng răng mà vẫn thèm ăn gà. Anh gọi hẳn 1 combo siêu to khổng lồ, cho bé ăn no bụng luôn. Xong rồi bé nhờ anh chở đi mua giày đóoo.",
+  i49n1:
+    "01/06/2024: Đưa em bé đi hẹn hò học bá nè. Haizz, người ta phải kiềm chế lắm mới làm việc được đó.",
+  i49n2:
+    "Hehe, nhiều người ghen tị lắm á. Mấy ai được bạn gái đưa đi đón về đâu.",
+  i50n0:
+    "Hehe, gần đến ngày quan trọng rồi. Em bé nhớ cái gì đây không. Mỗi tối anh đều thức thêm 1 xíu để làm đó. Anh chuẩn bị hơi bị lâu đó nha.",
+  i50n1:
+    "Á à, hóa ra ai đó cũng chuẩn bị quà cho anh. Lại còn tự tay làm nữa chứ. Hehe",
+  i50n2:
+    "Tada, em bé đoán đúng rồi đó. 07/06/2024 -> Tròn 1 năm chúng mình chính thức yêu nhau, hehe. Yêu em bé lắm lắm. Chúc chúng mình sẽ luôn là của nhau như vậy. Cùng nhau thật hạnh phúc nha em iu.",
 };
