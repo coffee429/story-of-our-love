@@ -1,19 +1,50 @@
+import { BUBBLE, MEMORY } from "../constant.js";
+
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 const book = document.querySelector("#book");
-
-const paper1 = document.querySelector("#p1");
-const paper2 = document.querySelector("#p2");
-const paper3 = document.querySelector("#p3");
 
 // Event listener
 prevBtn.addEventListener("click", goPrevPage);
 nextBtn.addEventListener("click", goNextPage);
 
 // Business logic
-let currentLocation = 1;
-let numOfPages = 3;
+let currentLocation = 0;
+let numOfPages = BUBBLE.MAX_PICTURE;
 let maxLocation = numOfPages + 1;
+
+/* -------- Enhance logic ---------- */
+
+createAlbum();
+let papers = document.querySelectorAll(".paper");
+
+function createAlbum() {
+  for (let i = 0; i < numOfPages; i++) {
+    const paper = document.createElement("div");
+    paper.classList.add("paper");
+    paper.setAttribute("id", `p${i}`);
+
+    const front = document.createElement("div");
+    front.classList.add("front");
+
+    const frontContent = document.createElement("div");
+    frontContent.classList.add("front-content");
+    frontContent.setAttribute("id", `f${i}`);
+    front.appendChild(frontContent);
+
+    const back = document.createElement("div");
+    back.classList.add("back");
+
+    const backContent = document.createElement("div");
+    backContent.classList.add("back-content");
+    backContent.setAttribute("id", `b${i}`);
+    back.appendChild(backContent);
+
+    paper.appendChild(front);
+    paper.appendChild(back);
+    book.appendChild(paper);
+  }
+}
 
 function openBook() {
   book.style.transform = "translateX(50%)";
@@ -33,72 +64,29 @@ function closeBook(isAtBeginning) {
 
 function goNextPage() {
   if (currentLocation < maxLocation) {
-    switch (currentLocation) {
-      case 1:
-        openBook();
-        paper1.classList.add("flipped");
-        paper1.style.zIndex = 1;
-        break;
-      case 2:
-        paper2.classList.add("flipped");
-        paper2.style.zIndex = 2;
-        break;
-      case 3:
-        paper3.classList.add("flipped");
-        paper3.style.zIndex = 3;
-        closeBook(false);
-        break;
-      default:
-        throw new Error("Unknown State");
+    if (currentLocation == 0) {
+      openBook();
+    }
+
+    papers[currentLocation].classList.add("flipped");
+    papers[currentLocation].style.zIndex = currentLocation;
+
+    if (currentLocation == numOfPages - 1) {
+      closeBook();
     }
     currentLocation++;
   }
 }
 
 function goPrevPage() {
-  if (currentLocation > 1) {
-    switch (currentLocation) {
-      case 2:
-        closeBook(true);
-        paper1.classList.remove("flipped");
-        paper1.style.zIndex = 3;
-        break;
-      case 3:
-        paper2.classList.remove("flipped");
-        paper2.style.zIndex = 2;
-        break;
-      case 4:
-        openBook();
-        paper3.classList.remove("flipped");
-        paper3.style.zIndex = 1;
-        break;
-      default:
-        throw new Error("Unknown State");
+  if (currentLocation > 0) {
+    if (currentLocation == 1) {
+      closeBook(true);
+    } else if (currentLocation == numOfPages) {
+      openBook();
     }
+    papers[currentLocation - 1].classList.remove("flipped");
+    papers[currentLocation - 1].style.zIndex = numOfPages + 1 - currentLocation;
     currentLocation--;
-  }
-}
-
-function goNextPage() {
-  if (currentLocation < maxLocation) {
-    switch (currentLocation) {
-      case 1:
-        openBook();
-        paper1.classList.add("flipped");
-        paper1.style.zIndex = 1;
-        break;
-      case 2:
-        paper2.classList.add("flipped");
-        paper2.style.zIndex = 2;
-        break;
-      case 3:
-        paper3.classList.add("flipped");
-        paper3.style.zIndex = 3;
-        closeBook(false);
-        break;
-      default:
-        throw new Error("Unknown State");
-    }
-    currentLocation++;
   }
 }
