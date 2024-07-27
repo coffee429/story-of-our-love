@@ -2,6 +2,7 @@ import { FIRSTDATE } from "./constant.js";
 
 const heart = document.querySelector(".love-heart");
 heart.innerText = calculateLoveDays();
+const albumBtn = document.querySelector("#love-album-btn");
 
 function calculateLoveDays() {
   const sampleDate = new Date(FIRSTDATE.DATE);
@@ -41,4 +42,10 @@ function generateHeart(event) {
   setTimeout(() => {
     heart.remove();
   }, 1000); // Remove the heart element after 1 seconds
+}
+
+albumBtn.addEventListener("click", openAlbum);
+
+function openAlbum() {
+  window.location.href = "./album/album.html";
 }
