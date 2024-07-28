@@ -13,6 +13,7 @@ export const FIRSTDATE = {
 
 export const LOVE_IMAGE = {
   PATH: "image/love/",
+  ALBUM_PATH: "../../image/love/",
   MAX: 3,
 };
 
