@@ -1,4 +1,4 @@
-import { BUBBLE, MEMORY, LOVE_IMAGE } from "../constant.js";
+import { BUBBLE, MEMORY, LOVE_IMAGE } from "./constant.js";
 
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
@@ -133,7 +133,7 @@ function addPicture(id) {
   const picId = `i${i1}n${i2}`;
   const picture = back.querySelector(".page-picture");
 
-  picture.style.backgroundImage = `url(${LOVE_IMAGE.ALBUM_PATH}${picId}.jpg)`;
+  picture.style.backgroundImage = `url(${LOVE_IMAGE.PATH}${picId}.jpg)`;
   picture.style.backgroundPosition = "center";
   picture.style.backgroundRepeat = "no-repeat";
   picture.style.backgroundSize = "contain";

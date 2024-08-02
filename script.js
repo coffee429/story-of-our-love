@@ -47,5 +47,5 @@ function generateHeart(event) {
 albumBtn.addEventListener("click", openAlbum);
 
 function openAlbum() {
-  window.location.href = "./album/album.html";
+  window.location.href = "./album.html";
 }
