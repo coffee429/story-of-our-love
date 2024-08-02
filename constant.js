@@ -4,7 +4,7 @@ export const BUBBLE = {
   UPDATE_POSTION_PERIOD: 1,
   MIN_SIZE: 50,
   ADD_SIZE: 100,
-  MAX_PICTURE: 50,
+  MAX_PICTURE: 57,
 };
 
 export const FIRSTDATE = {
@@ -244,4 +244,35 @@ export const MEMORY = {
     "Á à, hóa ra ai đó cũng chuẩn bị quà cho anh. Lại còn tự tay làm nữa chứ. Hehe",
   i50n2:
     "Tada, em bé đoán đúng rồi đó. 07/06/2024 -> Tròn 1 năm chúng mình chính thức yêu nhau, hehe. Yêu em bé lắm lắm. Chúc chúng mình sẽ luôn là của nhau như vậy. Cùng nhau thật hạnh phúc nha em iu.",
+  i51n0: "09/06/2024: Đưa em bé đi niềng răng nè.",
+  i51n1:
+    "16/06/2024: Niềng răng thì sao nào. Ăn thì vẫn ăn nhé. Dẫn bé đi ăn Dimsum nè.",
+  i51n2: "Lại phát tí cơm chó nè.",
+  i52n0:
+    "23/06/2024: Nối tiếp truyền thống nam ngoái. Chúng mình lại đi xem Doraemon nhé. Lần này mình thử ở Lotte Hồ tây nè.",
+  i52n1: "Em bé bao nuôi anh ăn cơm nhật bản nè.",
+  i52n2:
+    "30/06/2024: Anh cún đi không cẩn thận nên ngã xe. Thế là làm ai đó lo lắng và sang chăm sóc á. Hì hì, anh xin lỗi vì đã làm em bé lo lắng nhé.",
+  i53n0:
+    "04/07/2024: Năm nay anh Cún lại đón sinh nhật cùng bé. Được bé Đầu Lợn đưa đi ăn, đi mua sắm màn hình nèee",
+  i53n1: "Hoho, cốc nước mía ở nhà anh cún hơi đắt em bé nhỉ.",
+  i53n2:
+    "Nhưng mà bù lại chúng mình có nhiều kỷ niệm đáng nhớ nè. Nhưng mà thử 1 lần thôi bé nhỉ",
+  i54n0: "08/07/2024: Lại dẫn em bé đi ăn gà thuii",
+  i54n1: "Anh ơi, thơm má em điii.",
+  i54n2: "Thơm má, thơm má cơ màaa.",
+  i55n0:
+    "16/07/2024: Hôm nay lân la đi ăn xa thôi. Lại tận Phạm Ngọc Thạch để ăn bánh mỳ Lạng Sơn. Sau đó ngồi trà đá vỉa hè nhưng mà ôi dồi ôi, no quá đii.",
+  i55n1:
+    "20/07/2024: Chiều đón em bé đi làm về. Lại lang thang Linh Lang ăn Ramen nè.",
+  i55n2: "21/07/2024: Thế đố em bé biết mình đang ăn ở đâu nào ?",
+  i56n0: "25/07/2024: Đưa em bé đi ăn gà rán ko xương Jolie Bee.",
+  i56n1: "Chụp tí hình đã rồi ăn sauu.",
+  i56n2: "12/07/2024: Cảnh đẹp và biển.",
+  i57n0:
+    "27/07/2024: Lại 1 ngày thứ 7 nữa. Đưa em bé đi ăn ở Xới Cơm. Em bé thích không gian này lắm, kiểu cổ cổ hoài niệm ý.",
+  i57n1:
+    "sau đố chúng mình đi xem phim thôi. Đi nhận huy hiệu(hụt) và xem Henji tỏ tình(hụt) Kazuha nè. ",
+  i57n2:
+    "Chút nhí nhố trước giờ chiếu phim nhaa. Hôm nay em bé phấn khích lắm đó.",
 };

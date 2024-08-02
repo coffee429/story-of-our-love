@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Sono&display=swap");
+
 .album-container {
   height: 100vh;
   display: flex;
@@ -7,18 +9,35 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: sans-serif;
-  height: 100vh;
   margin: 0;
   overflow: hidden;
   /* background-color: powderblue; */
 }
 
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #d3c7c7;
+  font-size: 29px;
+  margin: 0;
+}
+
+h2 {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #d3c7c7;
+  font-size: 25px;
+}
+
 /* Book */
 .book {
   position: relative;
-  width: 400px;
-  height: 500px;
+  width: 25%;
+  height: 50%;
   transition: transform 1s;
 }
 
@@ -69,6 +88,14 @@
   transform: rotateY(180deg);
 }
 
+.back-content h3 {
+  height: 8%;
+  color: #ef4b66;
+  margin: 0;
+  padding-top: 10px;
+  word-spacing: 0.2rem;
+}
+
 /* Paper flip effect */
 .flipped .front,
 .flipped .back {
@@ -92,30 +119,27 @@ button:hover i {
   color: #636363;
 }
 
-i {
+button i {
   font-size: 50px;
   color: gray;
 }
 
-/* Paper stack order */
-/* #p1 {
-  z-index: 3;
+#page-index {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+  transform: translateX(-50%);
+  color: white;
+  margin: 0;
+  font-size: 20px;
 }
-
-#p2 {
-  z-index: 2;
-}
-
-#p3 {
-  z-index: 1;
-} */
 
 /* -------- Album picture ------- */
 .page-picture {
   width: 90%;
   height: 80%;
-  border: 2px solid #cd7e7e;
   border-radius: 10px;
+  margin: 0;
 }
 
 .page-description {
@@ -127,4 +151,16 @@ i {
   overflow: auto;
   box-sizing: border-box;
   resize: none;
+}
+
+/* ------- Front cover ----------- */
+.front-cover {
+  height: 100%;
+  width: 100%;
+  background-image: url("./front_cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fdfdfd;
+  border-radius: 10px;
 }

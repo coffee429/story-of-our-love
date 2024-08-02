@@ -3,6 +3,7 @@ import { BUBBLE, MEMORY, LOVE_IMAGE } from "../constant.js";
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 const book = document.querySelector("#book");
+const pageIndex = document.querySelector("#page-index");
 
 // Event listener
 prevBtn.addEventListener("click", goPrevPage);
@@ -11,13 +12,13 @@ nextBtn.addEventListener("click", goNextPage);
 // Business logic
 let currentLocation = 0;
 let numOfPages = BUBBLE.MAX_PICTURE * 3;
-// let numOfPages = 5;
 let maxLocation = numOfPages + 1;
 
 /* -------- Enhance logic ---------- */
 
 createAlbum();
 let papers = document.querySelectorAll(".paper");
+updateAlbumCover();
 // addPicture(0);
 
 function createAlbum() {
@@ -34,7 +35,6 @@ function createAlbum() {
     const frontContent = document.createElement("div");
     frontContent.classList.add("front-content");
     frontContent.setAttribute("id", `f${i}`);
-    frontContent.innerText = `front ${i}`;
 
     const description = document.createElement("div");
     description.classList.add(`${i == 0 ? "front-cover" : "page-description"}`);
@@ -49,11 +49,20 @@ function createAlbum() {
     const backContent = document.createElement("div");
     backContent.classList.add("back-content");
     backContent.setAttribute("id", `b${i}`);
-    backContent.innerText = `back ${i}`;
+
+    const rim1 = document.createElement("h3");
+    rim1.textContent =
+      "\u2764 \u2764 \u2764 \u2764 \u2764 \u2764 \u2764 \u2764 \u2764 \u2764";
+    backContent.appendChild(rim1);
 
     const picture = document.createElement("div");
     picture.classList.add("page-picture");
     backContent.appendChild(picture);
+
+    const rim2 = document.createElement("h3");
+    rim2.textContent =
+      "\u2764 \u2764 \u2764 \u2764 \u2764 \u2764 \u2764 \u2764 \u2764 \u2764";
+    backContent.appendChild(rim2);
 
     back.appendChild(backContent);
 
@@ -68,6 +77,7 @@ function openBook() {
   book.style.transform = "translateX(50%)";
   prevBtn.style.transform = "translateX(-180px)";
   nextBtn.style.transform = "translateX(180px)";
+  pageIndex.style.transform = "translateX(50%)";
 }
 
 function closeBook(isAtBeginning) {
@@ -93,10 +103,11 @@ function goNextPage() {
       closeBook();
     }
     if (currentLocation < numOfPages) {
-      // No adding picture is last pager (book cover)
+      // No adding picture is last paper (book cover)
       addPicture(currentLocation);
     }
     currentLocation++;
+    updatePageIndex();
   }
 }
 
@@ -111,6 +122,7 @@ function goPrevPage() {
     papers[currentLocation - 1].style.zIndex = numOfPages + 2 - currentLocation;
     addPicture(currentLocation - 1);
     currentLocation--;
+    updatePageIndex();
   }
 }
 
@@ -124,7 +136,7 @@ function addPicture(id) {
   picture.style.backgroundImage = `url(${LOVE_IMAGE.ALBUM_PATH}${picId}.jpg)`;
   picture.style.backgroundPosition = "center";
   picture.style.backgroundRepeat = "no-repeat";
-  picture.style.backgroundSize = "cover";
+  picture.style.backgroundSize = "contain";
 
   if (id < numOfPages) {
     const front = papers[id + 1].querySelector(".front-content");
@@ -133,4 +145,18 @@ function addPicture(id) {
       desc.innerText = `\u2764 ${MEMORY[picId]}`;
     }
   }
+}
+
+function updatePageIndex() {
+  pageIndex.textContent = `${currentLocation}/${
+    BUBBLE.MAX_PICTURE * LOVE_IMAGE.MAX
+  }`;
+}
+
+function updateAlbumCover() {
+  const frontCover = document.querySelector(".front-cover");
+  frontCover.style.backgroundImage = `url("./front_cover.jpg")`;
+  frontCover.style.backgroundPosition = "center";
+  frontCover.style.backgroundRepeat = "no-repeat";
+  frontCover.style.backgroundSize = "contain";
 }
