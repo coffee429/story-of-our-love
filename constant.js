@@ -4,7 +4,7 @@ export const BUBBLE = {
   UPDATE_POSTION_PERIOD: 1,
   MIN_SIZE: 50,
   ADD_SIZE: 100,
-  MAX_PICTURE: 57,
+  MAX_PICTURE: 58,
 };
 
 export const FIRSTDATE = {
