@@ -4,7 +4,7 @@ export const BUBBLE = {
   UPDATE_POSTION_PERIOD: 1,
   MIN_SIZE: 50,
   ADD_SIZE: 100,
-  MAX_PICTURE: 58,
+  MAX_PICTURE: 69,
 };
 
 export const FIRSTDATE = {
@@ -15,7 +15,6 @@ export const LOVE_IMAGE = {
   PATH: "image/love/",
   MAX: 3,
 };
-
 
 export const MEMORY = {
   i0n0: "28/5/2023: Chút nhí nhố trên đường đi picnic Cửa Tử - Thái Nguyên. Về set avatar khẳng định chủ quyền ngay nhé",
@@ -275,4 +274,61 @@ export const MEMORY = {
     "sau đố chúng mình đi xem phim thôi. Đi nhận huy hiệu(hụt) và xem Henji tỏ tình(hụt) Kazuha nè. ",
   i57n2:
     "Chút nhí nhố trước giờ chiếu phim nhaa. Hôm nay em bé phấn khích lắm đó.",
+  i58n0:
+    "11/08/2024: Chúng mình lại lượn lờ Bách Khoa nè. Ăn bún chả và chè tự chọn.",
+  i58n1: "Em bé vừa ăn vừa nghe anh kể lại đủ thứ thời sinh viên của mình.",
+  i58n2: "Chụp ảnh mà cũng bẽn lẽn dồ.",
+  i59n0:
+    "14/08/2024: Em bé nhớ hôm nay chúng mình đi đâu không? Chúng mình đi ăn bánh đúc nóng ở tận Tôn Thất Tùng nè. Hôm đó chúng mình có chút quan điểm khác nhau về cách lái xe ó.",
+  i59n1: "Nhưng mà ăn no xong rồi thì em bé lại cười rồiii",
+  i59n2: "24/08/2024: Anh cún đưa em bé đi cắt kính nè.",
+  i60n0:
+    "03/09/2024: Nghỉ lễ 2/9 xong òiii, em bé lên HN cái là anh cún đón bé đi ăn đi chơi luôn nè.",
+  i60n1:
+    "Hôm đó bé mặc váy công chúa hồng nhé. Ăn tối xong chúng mình lượn lờ hồ điều hòa nhé.",
+  i60n2: "Hun hít dồ nữa đóoo",
+  i61n0:
+    "13/09/2024: Bắt đầu từ tháng 9, anh cún nhận thêm 1 dự án nữa. Bắt đầu khoảng thời gian anh cún bận bịu hơn với công việc. Sau gần 2 tuần chúng mình mới lại đi chơi tiếp nè. hiuhiu. Lại còn 9h mới bắt đầu đi ăn chứ, bé chờ lâu lắm đúng hông",
+  i61n1: "Hôm đó chúng mình thử 1 quán pizza mới ở Tô Hiệu, gần chỗ đi bộ nè.",
+  i61n2: "Có đồ ăn là bé vui ngayy.",
+  i62n0:
+    "17/09/2024: Hôm đó là Trung thu mà anh cún bận quá không đi chơi được. Thế là bé mang đồ ăn sang cho anh nè. Anh cún cũng cho bé rước đèn lunn.",
+  i62n1:
+    "28/09/2024: Đợt đó anh cún bận với dự án quá, nên thời gian đi chơi với bé cũng ít. Mãi anh cún mới sắp xếp đi chơi được, nhưng mà bé bảo lâu quá nên tay hông còn quen bóp tii nữa. Huhu 😥",
+  i62n2:
+    "Xong rồi chúng mình đi hội sách ở phố đi bộ nè. Có cả nhà sách Minh Thắng của bé nữa đó, mà em bé hông có vào. Em sợ à?",
+  i63n0:
+    "Hmm, tháng 9 - 10 là khoảng thời gian khó khăn cho chúng mình. Anh cún bận bịu công việc mà không dành được nhiều thời gian cho bé, đi chơi hay call với bé mỗi đêm. Anh biết em bé hiểu nhưng mà trái tim mỏng manh của em hông chịu được. Em bé tủi thân lắm đúng không. Trước đó vài ngày bé dãi bày tâm sự với anh, rằng bé bị suy nghĩ nhiều và muốn có chút khoảng ngừng. Sau 1 ngày thì anh đã phải phi tới tận nơi xem bé như nào. Em bé òa khóc huhu.",
+  i63n1:
+    "10/10/2024: May mắn là mọi việc rồi đâu cũng vào đó. Chúng mình hiểu nhau hơn. Anh cún dẫn bé đi ăn jolibee, bé tặng anh 1 cái vòng đeo điện thoại bé tự làm nè.",
+  i63n2:
+    "Rồi chúng mình đi bộ ở công viên. Bé phải luôn cười như này nghe chưaaa.",
+  i64n0: "Anh cún sắp về quê nên lại tranh thủ đi chơi với bé.",
+  i64n1: "Chụp chiệc các kiểu",
+  i64n2: "Làm hình trái tim dồô",
+  i65n0:
+    "20/10/2024: Chúng mình đi ăn chay nè. Em bé khen anh thấy mấy chị là tự động ngồi quay lưng lại ó. Em bé nhớ koooo",
+  i65n1:
+    "Chúng mình lần đầu đi chợ hoa nè. Lần đầu mua cho bông hoa của anh 1 bó hoa khác",
+  i65n2:
+    "Hoa là phải cắm vào bình, giống như em phải cắm vào tim anh. Nên chúng mình lại đi mua bình hoa nèee",
+  i66n0:
+    "28/10/2024: Em bé nhớ chỗ nào đây ko. Anh cún đưa bé đi tiêm HPV mũi 3 nè. Còn xin sticker cho em nữa",
+  i66n1: "Chúng mình lần đầu đi ăn đồ Hàn cùng với nhau em bé nè",
+  i66n2: "Và sau đó là chụp ảnh ở photobooth đó",
+  i67n0:
+    "08/11/2024: Tối đó chúng mình thử món Nhật nè. Cơ mà sau đó em bé bị đau bụng nên anh đưa bé về luôn. Anh cún chỉ hỏi thui mà bé quát anh, huhu 😥😭",
+  i67n1:
+    "14/11/2024: Ngày công chúa của anh ra đời. Em bé có thích món quà sinh nhật này ko ạ. Anh cún chọn bức ảnh này vì hy vọng em bé lúc nào cũng cười tươi như thế này nhéee",
+  i67n2:
+    "21/11/2024: Chúng mình đi ăn pizza nèee. Rồi chúng mình đi ghép lego nè. Bé bảo lâu lâu thèm kem nên anh xây nhà kem cho bé luôn",
+  i68n0:
+    "04/12/2024: Lần đầu tiên anh thấy công chúa của anh mặc áo trễ vai này. hihi anh thích lémmmm 😋",
+  i68n1: "Che mắt lại nàoo🤭",
+  i68n2:
+    "13/12/2024: Dẫn em bé đi quán pizza mới. Đợt này bé bắt đầu học thạc sĩ rùi. Cuối tuần em bé bận hơn cả anh",
+  i69n0:
+    "27/12/2024: Lần đầu tiên chúng mình đi lên tầng 65 tòa Lotte với nhau nè. 7 năm trước anh cũng đã ở đây, ôm 1 chú gấu bông. Năm nay anh thực hiện lại điều đó, chỉ thay mỗi chú gấu bằng 1 cô gấu 37 độ xinh xăn đáng yêu hơn.",
+  i69n1: "Chúng mình đã chụp 7749 tấm cùng nhau hehe",
+  i69n2: "Iii ảnh đẹp cơ mà sao bé nắm tay chặt thế. Bé sợ kính vỡ àaaa",
 };
