@@ -4,7 +4,7 @@ export const BUBBLE = {
   UPDATE_POSTION_PERIOD: 1,
   MIN_SIZE: 50,
   ADD_SIZE: 100,
-  MAX_PICTURE: 69,
+  MAX_PICTURE: 70,
 };
 
 export const FIRSTDATE = {
@@ -331,4 +331,10 @@ export const MEMORY = {
     "27/12/2024: Lần đầu tiên chúng mình đi lên tầng 65 tòa Lotte với nhau nè. 7 năm trước anh cũng đã ở đây, ôm 1 chú gấu bông. Năm nay anh thực hiện lại điều đó, chỉ thay mỗi chú gấu bằng 1 cô gấu 37 độ xinh xăn đáng yêu hơn.",
   i69n1: "Chúng mình đã chụp 7749 tấm cùng nhau hehe",
   i69n2: "Iii ảnh đẹp cơ mà sao bé nắm tay chặt thế. Bé sợ kính vỡ àaaa",
+  i70n0:
+    "19/01/2025: Chúng mình đi chụp bộ ảnh Tết đầu tiên cùng với nhau nè. Trước đó, bé còn chở anh đi lựa đồ nữa cơ.",
+  i70n1:
+    "Chà, hôm đó chúng mình thức dậy từ 6h sáng cơ. Rồi sau đó chạy lên phố Tạ Hiện chụp ảnh nè. Hôm đó em bé xinh quá đii",
+  i70n2:
+    "Chụp 7749 kiểu ảnh. Sau bao năm thì anh cũng có 1 chiếc ảnh đẹp để đổi ava rùii",
 };
